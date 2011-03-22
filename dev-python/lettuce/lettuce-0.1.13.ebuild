@@ -5,12 +5,12 @@
 EAPI="2"
 SUPPORT_PYTHON_ABIS="1"
 
-inherit distutils eutils
+inherit distutils eutils versionator
 
 DESCRIPTION="A python based cucumber clone"
 HOMEPAGE="http://lettuce.it/"
-SRC_URI="http://github.com/downloads/gabrielfalcao/${PN}/tarball/${PV}"
-#http://github.com/gabrielfalcao/lettuce/tarball/0.1.13
+SRC_URI="https://github.com/gabrielfalcao/${PN}/tarball/${PV} -> ${P}.tar.gz"
+S="${WORKDIR}/${GITHUB_AUTHOR}-${PN}-*"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -21,12 +21,9 @@ RDEPEND="dev-python/setuptools"
 DEPEND="${RDEPEND}"
 RESTRICT_PYTHON_ABIS="3.*"
 
-src_prepare() {
-	distutils_src_prepare
-}
-
-src_compile() {
-	distutils_src_compile
+src_unpack() {
+	unpack ${A}
+	mv *-${PN}-* "${S}"
 }
 
 src_install() {
