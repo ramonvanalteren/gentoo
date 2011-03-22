@@ -9,7 +9,7 @@ inherit distutils eutils
 
 DESCRIPTION="A python based cucumber clone as noseplugin"
 HOMEPAGE="http://http://github.com/rlisagor/freshen"
-SRC_URI="https://github.com/downloads/rlisagor/${PN}/${P}.tar.bz2"
+SRC_URI="https://github.com/downloads/rlisagor/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
