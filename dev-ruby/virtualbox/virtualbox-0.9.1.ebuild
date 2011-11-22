@@ -16,4 +16,4 @@ SLOT="0"
 KEYWORDS="~x64-macos"
 IUSE=""
 
-ruby_add_rdepend ">=dev-ruby/ffi-0.6.3"
+ruby_add_rdepend ">=dev-ruby/ffi-1.0.9"
