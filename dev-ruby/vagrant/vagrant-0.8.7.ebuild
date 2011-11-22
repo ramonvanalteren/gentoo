@@ -12,6 +12,9 @@ EAPI="2"
 
 USE_RUBY="ruby18"
 
+RUBY_FAKEGEM_TASK_TEST="test"
+RUBY_FAKEGEM_EXTRAINSTALL="test templates contrib keys config Rakefile README.md CHANGELOG.md LICENSE"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Vagrant is a tool for building and distributing virtualized development environments."
