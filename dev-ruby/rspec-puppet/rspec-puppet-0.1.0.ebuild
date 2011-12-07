@@ -4,7 +4,7 @@
 
 EAPI=3
 
-USE_RUBY="ruby18 ruby19 ree18 jruby rbx"
+USE_RUBY="ruby18"
 
 RUBY_FAKEGEM_TASK_TEST="none"
 RUBY_FAKEGEM_TASK_DOC=""
@@ -19,7 +19,7 @@ HOMEPAGE="http://github.com/rodjek/rspec-puppet"
 
 LICENSE="|| ( Ruby GPL-2 )"
 SLOT="0"
-KEYWORDS="~x64-macos ~x86-macos"
+KEYWORDS="~amd64 ~x86 ~x64-macos ~x86-macos"
 RDEPEND="app-admin/puppet"
 DEPEND="${RDEPEND}
 dev-ruby/rspec"

@@ -19,6 +19,6 @@ HOMEPAGE="http://github.com/rodjek/puppet-lint"
 
 LICENSE="|| ( Ruby GPL-2 )"
 SLOT="0"
-KEYWORDS="~x64-macos ~x86-macos ~amd64 ~x86"
+KEYWORDS="~amd64 ~x86 ~x64-macos ~x86-macos"
 RDEPEND="app-admin/puppet"
 DEPEND="${RDEPEND}"
