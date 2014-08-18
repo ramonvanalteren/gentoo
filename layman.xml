@@ -1,0 +1,6 @@
+<layman>
+    <overlay type="git" src="https://github.com/optiz0r/gentoo-ramonvanalteren.git" contact="ramon@vanalteren.nl" status="unofficial" name="ramonvanalteren">
+        <link>https://github.com/ramonvanalteren/gentoo</link>
+        <description>Ramon van Alteren's personal overlay</description>
+    </overlay>
+</layman>
